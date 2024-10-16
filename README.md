@@ -1,36 +1,30 @@
 # Flight Delay Prediction Project
 
 ## Overview
-This project uses Data Science and Machine Learning to predict the reasons behind flight delays. We clean and preprocess the dataset, apply multiple classification algorithms, and determine the most accurate model for predicting delay reasons. The final cleaned data is exported into a CSV file for future use.
+This project uses Data Science and Machine Learning to predict the reasons for flight delays. The dataset is cleaned and prepared, and different machine learning algorithms are applied to find the most accurate model for predicting the delay reasons.
 
 ## Key Features
-- Data cleaning and preprocessing to ensure accuracy and reliability.
-- Implementation of multiple machine learning models, including:
+- Data cleaning and preparation to make sure the data is accurate and usable.
+- Implementing several machine learning models:
   - Logistic Regression
   - Support Vector Classifier (SVC)
   - Decision Tree Classifier
   - Random Forest Classifier
-- Evaluation of model performance based on accuracy.
-- Exporting the cleaned data into a CSV file for further analysis.
+- Comparing the accuracy of different models to find the best one.
 
 ## Machine Learning Models
-1. **Logistic Regression**: Initially used for binary classification, applied to our multiclass dataset.
-2. **Support Vector Classifier (SVC)**: We tested both linear and RBF kernels to evaluate the best fit for our data.
-3. **Decision Tree Classifier**: Predicts delay reasons by splitting data into branches based on feature values.
-4. **Random Forest Classifier**: Utilizes 300 decision trees to provide the most accurate prediction by taking the mode of predictions.
+1. **Logistic Regression**: A model typically used for binary classification, but here we used it for multiclass data.
+2. **Support Vector Classifier (SVC)**: We tested both linear and RBF kernels to find which one works best for our data.
+3. **Decision Tree Classifier**: This model splits the data into branches to predict the delay reasons.
+4. **Random Forest Classifier**: Uses 300 decision trees to predict the most common delay reason by taking the majority vote.
 
-## Data Preprocessing
-- Handled missing data and ensured that only relevant features are used for modeling.
-- Encoded categorical variables to make them suitable for machine learning models.
-- Cleaned and structured data for improved readability.
+## Data Preparation
+- Fixed missing data and focused on the most important features for the models.
+- Converted categorical data into a format that the machine learning models could understand.
+- Ensured the data was well-prepared for the modeling process.
 
 ## Results
-- The Random Forest Classifier yielded the highest accuracy (93-94%), making it the best-performing model for predicting delay reasons.
+- The Random Forest Classifier gave the best accuracy (around 93-94%), making it the top-performing model for predicting flight delay reasons.
 
 ## Conclusion
-This project demonstrates the effective use of various machine learning techniques to predict flight delays. The final processed data is saved in a CSV file, making it available for further analysis or integration into other applications.
-
-## How to Run the Project
-1. Clone the repository:
-   ```bash
-   git clone <repo-url>
+This project shows how machine learning can be used to predict flight delays. The models tested, especially the Random Forest, provided useful insights for the problem at hand.
