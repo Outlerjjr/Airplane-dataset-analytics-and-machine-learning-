@@ -1,1 +1,1 @@
-download the dataset from here: and name it "flights/csv". Good luck!
+Download the dataset from the link provided (https://www.mediafire.com/file/7hywhgfugx22dmr/flights.csv/file) and save it as flights.csv. Good luck!
